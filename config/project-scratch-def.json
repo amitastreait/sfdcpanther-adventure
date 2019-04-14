@@ -11,7 +11,14 @@
         "Knowledge",
         "Sites",
         "Communities",
-        "PersonAccounts"
+        "PersonAccounts",
+        "Pardot",
+        "ForceComPlatform",
+        "StateAndCountryPicklist",
+        "Entitlements",
+        "IoT",
+        "LiveAgent"
+        
     ],
   "settings": {
       "orgPreferenceSettings": {
