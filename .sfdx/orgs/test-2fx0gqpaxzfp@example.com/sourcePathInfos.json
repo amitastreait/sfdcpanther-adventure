@@ -78,14 +78,13 @@
         {
             "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/classes/YeurContactController.cls",
             "isDirectory": false,
-            "size": 411,
-            "modifiedTime": 1555229931050,
-            "changeTime": 1555229931050,
-            "contentHash": "009d5fd0f1afecb602902c1bd9770c4b7bbbd95f",
+            "size": 1063,
+            "modifiedTime": 1555233756099,
+            "changeTime": 1555233756099,
+            "contentHash": "75d1711dcc6aece67641f5551e4a74291d85db06",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -108,14 +107,13 @@
         {
             "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc",
             "isDirectory": true,
-            "size": 224,
-            "modifiedTime": 1555226931892,
-            "changeTime": 1555226931892,
-            "contentHash": "c3d728f4118334c0dc5c6b2688028cdc5a8c89db",
+            "size": 256,
+            "modifiedTime": 1555233315455,
+            "changeTime": 1555233315455,
+            "contentHash": "1283ab53a04b9ba59fdf4593feb11f6747ea9283",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -138,42 +136,41 @@
         {
             "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurcontactlist/yeurcontactlist.css",
             "isDirectory": false,
-            "size": 282,
-            "modifiedTime": 1555226746167,
-            "changeTime": 1555226746167,
-            "contentHash": "8d5329389f3cdac28446a9239dc048631a80948b",
+            "size": 333,
+            "modifiedTime": 1555232794581,
+            "changeTime": 1555232794581,
+            "contentHash": "48f2813695e65d636d1174d05abb2bed21838ce9",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
         "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurcontactlist/yeurcontactlist.html",
         {
-            "state": "u",
             "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurcontactlist/yeurcontactlist.html",
             "isDirectory": false,
+            "size": 4983,
+            "modifiedTime": 1555233552342,
+            "changeTime": 1555233552342,
+            "contentHash": "9d94f3c2192623389a85de4c8acfeccdb5f65f3e",
             "isMetadataFile": false,
-            "size": 4139,
-            "modifiedTime": 1555232309209,
-            "changeTime": 1555232309209,
-            "isWorkspace": false,
-            "contentHash": "be851958502163e89f42701b9a91f9b3559d89fd"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurcontactlist/yeurcontactlist.js",
         {
+            "state": "u",
             "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurcontactlist/yeurcontactlist.js",
             "isDirectory": false,
-            "size": 1195,
-            "modifiedTime": 1555231854039,
-            "changeTime": 1555231854039,
-            "contentHash": "addb21d188cc0c81f81cb4885e84b49bf40320ad",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 1851,
+            "modifiedTime": 1555234027992,
+            "changeTime": 1555234027992,
+            "isWorkspace": false,
+            "contentHash": "4f7bfb6d6bc2cec61c597d5c9ffef2932b9b38cd"
         }
     ],
     [
@@ -474,6 +471,58 @@
             "modifiedTime": 1555231347674,
             "changeTime": 1555231347674,
             "contentHash": "eabe3da9f6d27c1f252b239477983e6d2e5dfee3",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurerrorpanel",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurerrorpanel",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1555233315460,
+            "changeTime": 1555233315460,
+            "contentHash": "a39df19c0ee2b8ed37f8f0be90a4020d1a79b39b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurerrorpanel/yeurerrorpanel.html",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurerrorpanel/yeurerrorpanel.html",
+            "isDirectory": false,
+            "size": 796,
+            "modifiedTime": 1555233417603,
+            "changeTime": 1555233417603,
+            "contentHash": "c107eaa2a803325ff229f429cd7938797497e1eb",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurerrorpanel/yeurerrorpanel.js",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurerrorpanel/yeurerrorpanel.js",
+            "isDirectory": false,
+            "size": 1674,
+            "modifiedTime": 1555233507562,
+            "changeTime": 1555233507562,
+            "contentHash": "589e69a329fd9e87c1ce495a45f272beb2fcc377",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurerrorpanel/yeurerrorpanel.js-meta.xml",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc/yeurerrorpanel/yeurerrorpanel.js-meta.xml",
+            "isDirectory": false,
+            "size": 229,
+            "modifiedTime": 1555233315459,
+            "changeTime": 1555233315459,
+            "contentHash": "aca0b783dba84280e7e3f7dfb13712f80f1ebc0b",
             "isMetadataFile": true,
             "state": "u"
         }

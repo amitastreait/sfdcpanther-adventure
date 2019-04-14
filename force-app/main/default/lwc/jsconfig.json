@@ -11,6 +11,9 @@
             ],
             "c/yeurcontacttile": [
                 "yeurcontacttile/yeurcontacttile.js"
+            ],
+            "c/yeurerrorpanel": [
+                "yeurerrorpanel/yeurerrorpanel.js"
             ]
         }
     },

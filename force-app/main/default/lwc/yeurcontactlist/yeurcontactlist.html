@@ -17,7 +17,7 @@
                 </lightning-layout-item>
                 <lightning-layout-item padding="around-small" size="12">
                     <lightning-layout>
-                        <lightning-layout-item padding="around-small" size="6">
+                        <lightning-layout-item padding="around-small" size="4">
                             <div class="page-section page-right">
                                 <h2>Contact List</h2>
                                 <template if:true={contacts}>
@@ -28,9 +28,12 @@
                                         </c-yeurcontacttile>
                                     </template>
                                 </template>
+                                <template if:true={errors}>
+                                    <c-yeurerrorpanel errors={errors}></c-yeurerrorpanel>
+                                </template>
                             </div>
                         </lightning-layout-item>
-                        <lightning-layout-item padding="around-small" size="6">
+                        <lightning-layout-item padding="around-small" size="8">
                             <div class="page-section page-main">
                                 <h2>Contact Details</h2>
                                 <template if:true={selectedContact}>
@@ -39,17 +42,28 @@
                                             <img src={selectedContact.Picture__c} alt="Profile photo" />
                                         </lightning-layout-item>
                                         <lightning-layout-item padding="around-small">
-                                            <p>{selectedContact.Name}</p>
                                             <p>
-                                                <lightning-formatted-email value={selectedContact.Email} ></lightning-formatted-email>
+                                                <lightning-formatted-text value={selectedContact.Name}>
+                                                </lightning-formatted-text>
                                             </p>
                                             <p>
-                                                <lightning-formatted-phone value={selectedContact.Phone} ></lightning-formatted-phone>
+                                                <lightning-formatted-text value={selectedContact.Title}>
+                                                </lightning-formatted-text>
                                             </p>
                                             <p>
-                                                <lightning-icon icon-name="standard:account" size="small"></lightning-icon>
+                                                <lightning-formatted-email value={selectedContact.Email}>
+                                                </lightning-formatted-email>
+                                            </p>
+                                            <p>
+                                                <lightning-formatted-phone value={selectedContact.Phone}>
+                                                </lightning-formatted-phone>
+                                            </p>
+                                            <p>
+                                                <lightning-icon icon-name="standard:account" size="small">
+                                                </lightning-icon>
                                                 &nbsp; &nbsp;
-                                                <lightning-formatted-text value={selectedContact.Account.Name} ></lightning-formatted-text>
+                                                <lightning-formatted-text value={selectedContact.Account.Name}>
+                                                </lightning-formatted-text>
                                             </p>
                                         </lightning-layout-item>
                                     </lightning-layout>
@@ -60,7 +74,7 @@
                 </lightning-layout-item>
                 <lightning-layout-item flexibility="auto" padding="around-small" size="12">
                     <div class="page-footer page-section">
-                        
+
                         <h2>YeurDream In Contact Search</h2>
                     </div>
                 </lightning-layout-item>
