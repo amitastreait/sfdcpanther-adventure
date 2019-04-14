@@ -75,7 +75,7 @@ In the above command we are using below parameters
 ### Below are the salesforce dx commands that we are going to use in our demo
 ```
 println(' Creating Scratch ORG..')
-scratchorg =  sh returnStdout: true,  script : "sfdx force:org:create -f ./config/project-scratch-def.json -a ci-cd-org -s -w 10 -d 30"
+sfdx force:org:create -f ./config/project-scratch-def.json -a ci-cd-org -s -w 10 -d 30
 println(' Convert SFDC Project to normal project')
 sfdx force:mdapi:convert -d src -r force-app
 println(' Deploy the code into Scratch ORG.')
