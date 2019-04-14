@@ -72,6 +72,20 @@ In the above command we are using below parameters
 
 `setdefaultusername: - username of the user which is present in Salesforce ORG and profile has access to connected application.`
 
+### Below are the salesforce dx commands that we are going to use in our demo
+```
+println(' Creating Scratch ORG..')
+scratchorg =  sh returnStdout: true,  script : "sfdx force:org:create -f ./config/project-scratch-def.json -a ci-cd-org -s -w 10 -d 30"
+println(' Convert SFDC Project to normal project')
+sfdx force:mdapi:convert -d src -r force-app
+println(' Deploy the code into Scratch ORG.')
+sfdx force:mdapi:deploy -d ./src -u ${HUB_ORG}
+println(' Assign the Permission Set to the New user ')
+sfdx force:user:permset:assign -n yeurdreamin"
+println(' Import Contact and Account Data ')
+sfdx force:data:tree:import --plan ./data/data-plan.json
+```
+
 
 # Resources: - 
 [Salesforce Doc](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ci_jenkins.htm)
