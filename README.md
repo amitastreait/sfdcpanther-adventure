@@ -56,6 +56,14 @@ Once we have generated the certificate file, time to generate the certificate fi
 10. Go ahead and save the application
 11. Scroll down and Click on ```“Manage Profiles”``` and then select the appropriate profiles. So that the users with selected profiles can took the advantage of connected app.
 12. Now, go back to the connected application and copy the Consumer Key. Paste is somewhere we will use this while testing the flow.
+
+![](https://github.com/amitastreait/yeurdreamin-adventure/blob/master/Screenshot%202019-04-14%20at%205.15.41%20PM.png)
+
+![](https://github.com/amitastreait/yeurdreamin-adventure/blob/master/Screenshot%202019-04-14%20at%205.17.00%20PM.png)
+
+![](https://github.com/amitastreait/yeurdreamin-adventure/blob/master/Screenshot%202019-04-14%20at%205.17.33%20PM.png)
+
+
 Now time to test the Validate whatever we did till now run the below command from command prompt  
 
 `sfdx force:auth:jwt:grant --clientid {ADD_YOUR_CLIENT_ID} --jwtkeyfile {ABSOLUTE_PATH_TO_YOUR_SERVER.KEY_FILE} --username {ADD_YOUR_USERNAME} --instanceurl https://login.salesforce.com`
