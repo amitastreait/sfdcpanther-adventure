@@ -1,0 +1,30 @@
+{
+  "orgName": "yeurdream-company",
+  "edition": "Enterprise",
+  "features": [
+        "Communities", 
+        "ServiceCloud", 
+        "Chatbot", 
+        "MultiCurrency" , 
+        "ContactsToMultipleAccounts",
+        "CascadeDelete",
+        "Knowledge",
+        "Sites",
+        "Communities",
+        "PersonAccounts"
+    ],
+  "settings": {
+      "orgPreferenceSettings": {
+          "networksEnabled": true,
+          "s1DesktopEnabled": true,
+          "s1EncryptedStoragePref2": false
+      },
+      "omniChannelSettings": {
+          "enableOmniChannel": true
+      },
+
+      "caseSettings": {
+          "systemUserEmail": "sfdcpanther@outlook.com"
+      }
+  }
+}

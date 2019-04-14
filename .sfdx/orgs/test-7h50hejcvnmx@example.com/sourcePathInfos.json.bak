@@ -1,0 +1,192 @@
+[
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1555165859647,
+            "changeTime": 1555165859647,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1555165859647,
+            "changeTime": 1555165859647,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 192,
+            "modifiedTime": 1555170012950,
+            "changeTime": 1555170012950,
+            "isWorkspace": false,
+            "contentHash": "1f2421ee48cd784761c1997a468eba3e2b909638"
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 64,
+            "modifiedTime": 1555165859648,
+            "changeTime": 1555165859648,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/lwc",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1555165873246,
+            "changeTime": 1555165873246,
+            "contentHash": "a973ac1b5be0e216b2a2db1b82ae5ba97f4086f4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1555169772845,
+            "changeTime": 1555169772845,
+            "contentHash": "b37456c4530be810dc040f50da72eda09addfb0a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects/Contact",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects/Contact",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1555169846069,
+            "changeTime": 1555169846069,
+            "contentHash": "47adfd5ffb5b99db19f7f5b167792192778dbb7e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects/Contact/Contact.object-meta.xml",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects/Contact/Contact.object-meta.xml",
+            "isDirectory": false,
+            "size": 4877,
+            "modifiedTime": 1555169806378,
+            "changeTime": 1555169806378,
+            "contentHash": "3d0cbf70d11deba15a7281b65f3f8a0eab1711f6",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects/Contact/fields",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects/Contact/fields",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1555169852281,
+            "changeTime": 1555169852281,
+            "contentHash": "23e41d19f370695b58961696a1061c3a74ecc264",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects/Contact/fields/Picture__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/objects/Contact/fields/Picture__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 313,
+            "modifiedTime": 1555169865778,
+            "changeTime": 1555169865778,
+            "contentHash": "b7097359d434b9afe6caeb5da10f623ff043a7ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure",
+        {
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure",
+            "isDirectory": true,
+            "size": 384,
+            "modifiedTime": 1555169628709,
+            "changeTime": 1555169628709,
+            "contentHash": "7bb07280b0a74379979ab47d2f9a85d7faa1062c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/permissionsets",
+        {
+            "state": "u",
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/permissionsets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1555170036714,
+            "changeTime": 1555170036714,
+            "contentHash": "007490a5070cc82efca7007b05fba9ab7fe85a87"
+        }
+    ],
+    [
+        "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/permissionsets/yeurdreamin.permissionset-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/amitsingh/Documents/LWC Projects/yeurdreamin-adventure/force-app/main/default/permissionsets/yeurdreamin.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 690,
+            "modifiedTime": 1555170099551,
+            "changeTime": 1555170099551,
+            "contentHash": "c05caae8fa9383e3ffb40f5213ea5dc5fa1827a8"
+        }
+    ]
+]
