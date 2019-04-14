@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-m-around_large">
+        <lightning-card title="Related Contacts map" icon-name="custom:custom67">
+            <template if:true={mapMarkers}>
+                <lightning-map map-markers={mapMarkers} markers-title={markersTitle}></lightning-map>
+            </template>
+            <template if:false={mapMarkers}>
+                <h1>
+                    No Related Contacts Found
+                </h1>
+            </template>
+        </lightning-card>
+    </div>
+</template>

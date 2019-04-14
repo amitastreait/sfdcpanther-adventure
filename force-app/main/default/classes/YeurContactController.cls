@@ -23,4 +23,13 @@ public with sharing class YeurContactController {
                                     AND Name like :key];
         return contactList;
     }
+
+    @AuraEnabled(cacheable=true)
+    public static List<Contact> contactByAccountId(String accountId){
+        list<contact> contactlist = new list<contact>();
+        contactlist = [select Id, Name, MailingStreet, MailingCity, 
+                        MailingState, MailingPostalCode, MailingCountry
+                        From Contact Where AccountId =: accountId];
+        return contactlist;
+    }
 }
