@@ -1,0 +1,70 @@
+<template>
+    <div class="c-container">
+        <lightning-card title="Contact Search" icon-name="standard:contact">
+            <lightning-layout vertical-align="center" multiple-rows="true">
+                <lightning-layout-item padding="around-small" size="12">
+                    <img src={YEURDREAMINLOGO} alt="YEURDREAMINLOGO" />
+                </lightning-layout-item>
+            </lightning-layout>
+            <lightning-layout multiple-rows="true">
+                <lightning-layout-item padding="around-small" size="12">
+                    <c-yeursearchbar onsearch={fetchContacts}></c-yeursearchbar>
+                    <!--<div class="page-section page-header">
+                        <h2>
+                            <c-yeursearchbar onsearch={fetchContacts}></c-yeursearchbar>
+                        </h2>
+                    </div>-->
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="12">
+                    <lightning-layout>
+                        <lightning-layout-item padding="around-small" size="6">
+                            <div class="page-section page-right">
+                                <h2>Contact List</h2>
+                                <template if:true={contacts}>
+                                    <template for:each={contacts} for:item="contact" for:index="index">
+                                        <c-yeurcontacttile contact-record={contact} key={contact.Id}
+                                            onselect={handleSelectRecord}>
+
+                                        </c-yeurcontacttile>
+                                    </template>
+                                </template>
+                            </div>
+                        </lightning-layout-item>
+                        <lightning-layout-item padding="around-small" size="6">
+                            <div class="page-section page-main">
+                                <h2>Contact Details</h2>
+                                <template if:true={selectedContact}>
+                                    <lightning-layout vertical-align="center">
+                                        <lightning-layout-item>
+                                            <img src={selectedContact.Picture__c} alt="Profile photo" />
+                                        </lightning-layout-item>
+                                        <lightning-layout-item padding="around-small">
+                                            <p>{selectedContact.Name}</p>
+                                            <p>
+                                                <lightning-formatted-email value={selectedContact.Email} ></lightning-formatted-email>
+                                            </p>
+                                            <p>
+                                                <lightning-formatted-phone value={selectedContact.Phone} ></lightning-formatted-phone>
+                                            </p>
+                                            <p>
+                                                <lightning-icon icon-name="standard:account" size="small"></lightning-icon>
+                                                &nbsp; &nbsp;
+                                                <lightning-formatted-text value={selectedContact.Account.Name} ></lightning-formatted-text>
+                                            </p>
+                                        </lightning-layout-item>
+                                    </lightning-layout>
+                                </template>
+                            </div>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" padding="around-small" size="12">
+                    <div class="page-footer page-section">
+                        
+                        <h2>YeurDream In Contact Search</h2>
+                    </div>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-card>
+    </div>
+</template>
