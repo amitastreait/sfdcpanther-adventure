@@ -17,9 +17,9 @@ Scope of the document is to provide the step by step solution to implement the S
 # Download and install the OpenSSL in your Machine: - 
 Visit this [Link](https://sourceforge.net/projects/openssl/) and download the OpenSSL. After downloading install the software in your machine. Note: - OpenSSL is required to install so that we can generate the required certificate.
 Configure the path: - Once you are done with the installation part from the above run the below command form Command prompt 
-# set OPENSSL_CONF=C:\openssl\share\openssl.cnf
+``` set OPENSSL_CONF=C:\openssl\share\openssl.cnf```
 Where OPENSSL_CONF is name of the path
-# C:\openssl\share\openssl.cnf is the path of the OpenSSL folder be sure that you are using the correct Path
+```C:\openssl\share\openssl.cnf is the path of the OpenSSL folder be sure that you are using the correct Path```
 Now, run `openssl version` command.
 
 While setting the environment variable use `OPENSSL_CONF` as variable name and the path of SSL directory as Variable Value.
