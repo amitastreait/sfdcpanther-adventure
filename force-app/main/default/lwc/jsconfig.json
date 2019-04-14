@@ -3,9 +3,6 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/yeursearchbar": [
-                "yeursearchbar/yeursearchbar.js"
-            ],
             "c/yeurcontactlist": [
                 "yeurcontactlist/yeurcontactlist.js"
             ],
@@ -14,6 +11,9 @@
             ],
             "c/yeurerrorpanel": [
                 "yeurerrorpanel/yeurerrorpanel.js"
+            ],
+            "c/yeursearchbar": [
+                "yeursearchbar/yeursearchbar.js"
             ]
         }
     },
