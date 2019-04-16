@@ -1,4 +1,4 @@
-# yeurdreamin-adventure
+# deloitte-adventure
 How to use Salesforce DX with Jenkins to implement Continuous deployment and Continuous Integration.
 # Scope: - 
 Scope of the document is to provide the step by step solution to implement the SFDX with jenkins Server so that project can take the advantage of SFDX continuous delivery and development capabilities including the source control management.
