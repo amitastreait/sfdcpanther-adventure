@@ -8,7 +8,8 @@ public with sharing class YeurContactController {
         List<Contact> contactList = [Select Id, Name, FirstName, LastName, Email, 
                                     Phone, Title,
                                     Picture__c, Account.Name
-                                    From Contact Where AccountId != null AND Email != null];
+                                    From Contact Where AccountId != null AND Email != null 
+                                    AND Picture__c!=null];
         return contactList;
     }
 
@@ -19,8 +20,10 @@ public with sharing class YeurContactController {
         contactList = [Select Id, Name, FirstName, LastName, Email, 
                                     Phone, Title,
                                     Picture__c, Account.Name
-                                    From Contact Where AccountId != null AND Email != null
-                                    AND Name like :key];
+                                    From Contact Where AccountId != null 
+                                    AND Email != null
+                                    AND Name like :key
+                                    AND Picture__c!= null];
         return contactList;
     }
 
