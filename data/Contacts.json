@@ -77,6 +77,32 @@
             "Email": "jonathan@demo.net",
             "Phone": "4158885522",
             "Picture__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jonathan_bradley.jpg"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef7"
+            },
+            "AccountId": "@AccountRef2",
+            "FirstName": "Amit",
+            "LastName": "Singh",
+            "Title": "Application Architect",
+            "Email": "amitsingh4@deloitte.com",
+            "Phone": "4703626455",
+            "Picture__c": "https://pbs.twimg.com/profile_images/1117852431088439297/39s1_7us_400x400.jpg"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef8"
+            },
+            "AccountId": "@AccountRef2",
+            "FirstName": "Nida",
+            "LastName": "Khan",
+            "Title": "Salesforce Consultant",
+            "Email": "nidasfdc@gmail.com",
+            "Phone": "4703626455",
+            "Picture__c": "https://pbs.twimg.com/profile_images/932973291748208640/xwkBJ2Tr_400x400.jpg"
         }
     ]
 }
