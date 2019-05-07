@@ -10,6 +10,7 @@ public with sharing class YeurContactController {
                                     Picture__c, Account.Name
                                     From Contact Where AccountId != null AND Email != null 
                                     AND Picture__c!=null];
+        System.debug(' #### contactList '+contactList);
         return contactList;
     }
 
