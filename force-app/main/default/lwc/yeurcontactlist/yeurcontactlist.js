@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import { LightningElement, api, wire, track } from 'lwc';
 import contactList from '@salesforce/apex/YeurContactController.contactList';
-import YEURDREAMIN_LOGO from '@salesforce/resourceUrl/YeurDreaminLogo';
+import YEURDREAMIN_LOGO from '@salesforce/resourceUrl/deloittelogo';
 import searhContactByName from '@salesforce/apex/YeurContactController.searhContactByName';
 
 export default class Yeurcontactlist extends LightningElement {
