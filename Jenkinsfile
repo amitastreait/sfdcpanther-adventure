@@ -128,10 +128,10 @@ node {
             
             if(isUnix()){
                 println(' Assign the Permission Set to the New user ')
-                permset = sh returnStdout: true, script: "sfdx force:user:permset:assign -n yeurdreamin -u ${HUB_ORG} --json"
+                permset = sh returnStdout: true, script: "sfdx force:user:permset:assign -n deloitteAdv -u ${HUB_ORG} --json"
             }else{
                 println(' Assign the Permission Set to the New user ')
-                permset = bat returnStdout: true, script: "sfdx force:user:permset:assign -n yeurdreamin -u ${HUB_ORG} --json"
+                permset = bat returnStdout: true, script: "sfdx force:user:permset:assign -n deloitteAdv -u ${HUB_ORG} --json"
             }
             
             println(permset)
